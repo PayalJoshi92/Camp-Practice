@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Goharness </title>
+<!--<link rel="stylesheet" type="text/css" href="firstcssfile.css">-->
+
+<style>
+ p {     color: aqua;    
+     font-size: 10px; } 
+ 
+        body {  
+              background-attachment:scroll;
+              background-image:url(Practice\flower.jpg);
+             } 
+
+  .blue {  
+         color: blue;
+         font-size: 24px;
+        } 
+
+        #yellow {  
+               color: yellow;  
+               font-size: 24px; 
+            } 
+
+            #yellow, p, .blue {     color: pink;     font-size: 25px; } 
+
+            div.blue {     color: blue;     font-size: 24px; }
+ 
+            article a {     font-size: 24px; } 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+p::first-line {     color: aqua;     text-transform: lowercase; }
+
+
+
+ 
+q::before {  
+     content: "«"; 
+      color: white; 
+    } 
+    
+    q::after { 
+          content: "»";
+            color: black;
+         }
+
+         #box { 
+            box-sizing: border-box;
+           width: 500px;
+            background-color: orange;    
+           color: white;        
+          margin: 0px;       
+             border: 10px groove red;      
+             padding: 10px 10px 10px 10px;   
+                } 
+
+
+</style>
+</head>
+    <body id="top" align="centre">
+
+            <p>My Headline
+                    What are Pseudo-classes?
+                    A pseudo-class is used to define a special state of an element.
+                    
+                    For example, it can be used to:
+                    
+                    Style an element when a user mouses over it
+                    Style visited and unvisited links differently
+                    Style an element when it gets focus </p>
+
+                    <q>Some quotes,</q> he said, <q>are better than none.</q>
+ 
+                    <p class="blue"> Learn HTML & CSS </p> 
+                    <p> Learning CSS Selectors </p>
+                    <div class="blue">  Xceedance Bootcamp </div>
+ <div id="yellow"> Hi I am yellow in color  </div>
+
+ <article>    
+      <a href="https://www.google.com/">  Go to GOOGLE >> Learn HTML & CSS </a> </article> 
+      <article>    
+           <div> 
+               <p> Learn JavaScript </p> 
+            </div> 
+        </article> 
+       
+        <div id="box">HI</div>
+
+
+        </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Box</title>
+    <style>
+    .flexbox{
+        background-color: brown;
+        display: flex;
+        flex-direction: row-reverse; /*to define the direction of the divs*/
+        flex-wrap:wrap-reverse; /*if we dont use this then it can reduce the size of the divs defined below*/
+        flex-flow: row-reverse wrap;
+    }
+
+    .flexbox > div{
+
+        height: 75px;
+        width: 75px;
+        border: 2px solid yellow;
+        background-color: cornflowerblue;
+
+    }
+    
+
+    
+    
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+</body>
+</html>

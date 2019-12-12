@@ -1,0 +1,183 @@
+#box { 
+  box-sizing: border-box;
+}
+
+.navbar li{
+  color: rgb(40, 40, 158);
+}
+
+.nav-item:hover{
+  background-color: #2b4175;
+  transform: scale(1.05);
+}
+
+.row{
+  padding: 7px;
+}
+
+.row h2{
+  color:#2f416d;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.row span{
+  color:#40bfc1;
+  font-weight: bold;
+}
+
+.row button{
+  background-color: #1089ff;
+  border: 2px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.left-text {
+  text-align: center;
+  padding-top: 6%;
+}
+
+.right-img{
+  text-align: center;
+  padding-top: 6%;
+}
+
+.row h3, .card-box h3, .testimonials h3{
+  color:#2f416d;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.row i{
+  color:#70416d;
+  font-size: 25px;
+}
+
+.left-img{
+  border: 25px #e6f8f9 solid;
+  padding: 7px;
+}
+
+.left-img:hover{
+  transform: scale(1.01);
+}
+
+.right-text p{
+  color: #4e4e4e;
+  font-size: 18px;
+}
+
+.card-box{
+  background-color: #e8e8e8;
+  text-align: center;
+  /* padding-top: 4%; */
+}
+
+.card-box i{
+  color:#70416d;
+  font-size: 20px;
+}
+.fa-check-circle-o:before {  
+  color: #40bfc1;
+}
+
+.card-img-top i{
+  color: #f35588;
+}
+
+.card{ 
+  margin: 1% 4%;
+  border: 2px #e5e5e5 groove;
+  background-color: #eeeeee;
+} 
+
+.card-text{
+  text-align: left;
+}
+
+.card:hover{
+  transform: scale(1.13);
+}
+
+.card:hover h4{
+  color: #64c4ed;
+}   
+
+#mycarousel{
+  text-align: center;
+}
+
+.testimonials{
+  text-align: center;
+  height: 250px;
+  background-color: #f9fce1;
+}
+
+.carousel-indicators .active{
+    background-color: #40bfc1;
+}
+
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #2f416d;
+
+  }
+
+  .carousel-indicators li {
+     background-color: #999;
+      }
+
+  .footer-box{
+    background-color: #e8e8e8;
+    padding: 5%;
+  }
+
+  .footer-box h2, .footer-box h5{
+    color: #413E66;
+  }
+
+  .footer-box p{
+    color:#6C6A89;
+  }
+
+  .footer-box2 p{
+    color:#444444;
+  }
+  form button{
+    background-color: #1BB1DC;
+    padding: 4px 5px;
+    border: 1px #1BB1DC solid;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  form button:hover{
+    background-color: #1BB1DC;
+  }
+
+  .footer-box h2{
+    font-size: 25px;
+    }
+
+    .footer-box2 p{
+      font-size: 13px;
+    }
+
+    .footer-box3 button{
+      background-color: #1BB1DC;
+    padding: 4px 5px;
+    border: 1px #1BB1DC solid;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    .copyright{
+      text-align: center;
+    }
+    .copyright span{
+      color: #1BB1DC;
+    }
+
