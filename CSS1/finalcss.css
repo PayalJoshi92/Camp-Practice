@@ -1,0 +1,362 @@
+#box { 
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 25%;
+}
+
+body{
+    background-color: #537d91;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+
+.photodiv p{
+    position: absolute;
+    text-decoration: none;
+    right: 50%;
+    top:5px;
+    font-size: 25px;
+    font-display: Monospace;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+
+.logotext{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+
+.photodiv{
+    position : relative;
+    z-index: 1;
+
+}
+
+.bannerbtn{
+    background-color: rgb(234, 241, 243);
+    border: 2px black solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.bannerbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.topmenu {
+    justify-content: flex-end;
+}
+
+.topmenu a {
+    text-decoration: none;
+    margin: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #35495e;
+    /* border-left: 1px black solid; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.container{
+    background-color: #160f30;
+    padding: 60px 100px 60px 100px;
+    position: relative;
+    height: 130vh;
+}
+
+.containertext{
+    font-display: Monospace;
+    color: white;
+    font-weight: normal; 
+    
+}
+
+.sub1{
+    width: 20%;
+    height: 50%;
+    left: 5%;
+    text-align: center;
+    background-color: #407088;
+    font-size: 25px;
+    border: 2px black solid;
+    font-display: Monospace;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px;
+    position: absolute;
+}
+
+.sub2{
+    width: 20%;
+    height: 50%;
+    left: 27%;
+    text-align: center;
+    background-color: #407088;
+    font-size: 25px;
+    border: 2px black solid;
+    font-display: Monospace;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px;
+    position: absolute;
+}
+
+.sub3{
+    width: 20%;
+    height: 50%;
+    left: 49%;
+    text-align: center;
+    background-color: #407088;
+    font-size: 25px;
+    border: 2px black solid;
+    font-display: Monospace;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px;
+    position: absolute;
+}
+
+.sub4{
+    width: 20%;
+    height: 50%;
+    left: 71%;
+    text-align: center;
+    background-color: #407088;
+    font-size: 25px;
+    border: 2px black solid;
+    font-display: Monospace;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px;
+    position: absolute;
+}
+
+.subtext{
+    font-size: 15px;
+}
+
+.sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover{
+   background-color: #17223b;
+   transform: scale(1.05);
+}
+
+.sub1 img, .sub2 img, .sub3 img, .sub4 img{
+    margin-top: 15px;
+}
+
+/*for small devices, tablets*/
+@media(max-width:768px){
+
+    *{ 
+        margin: 0px;
+    }
+    .topmenu a {
+        text-decoration: none;
+        margin: left;
+        margin-right: 0px;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #35495e;
+        /* border-left: 1px black solid; */
+    }
+
+    .logo {
+        width: 15%;
+    }
+    
+
+    .photodiv p{
+        right: 60%;
+        top:15px;
+        font-size: 15px;
+        }
+
+    .container{
+            position: relative;
+            height:550px;
+            padding: 30px 50px 30px 50px;
+        }
+
+    .containertext{
+        text-align: left;
+    }
+
+
+    .sub1{
+        width: 20%;
+        height: 40%;
+        left: 7%;
+    }
+    
+    .sub2{
+        width: 20%;
+        height: 40%;
+        left: 30%;
+    }
+    
+    .sub3{
+        width: 20%;
+        height: 40%;
+        left: 53%;
+    }
+    
+    .sub4{
+        width: 20%;
+        height: 40%;
+        left: 76%;
+    }
+}
+
+/*for extra small devices, phones*/
+@media screen and (min-width:480px) and (max-width:767px){
+
+    *{ 
+        margin: 0px;
+    }
+   .topmenu a {
+        text-decoration: none;
+        margin: left;
+        margin-right: 0px;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #35495e;
+        /* border-left: 1px black solid; */
+    }
+
+    .logo {
+        width:12%;
+    }
+
+    .logotext{
+        font-size: 30px;
+    }
+    
+    .photodiv p{
+        right: 50%;
+        top:15px;
+        left:10px;
+        font-size: 15px;
+        }
+
+    .container{
+            position: relative;
+            height:140vh;
+        }
+
+    .sub1{
+        width: 40%;
+        height: 35%;
+        left: 7%;
+    }
+    
+    .sub2{
+        width: 40%;
+        height: 35%;
+        left: 53%;
+    }
+    
+    .sub3{
+        width: 40%;
+        height: 35%;
+        left: 7%;
+        top:60%;
+    }
+    
+    .sub4{
+        width: 40%;
+        height: 35%;
+        left: 53%;
+        top:60%;
+    }
+}
+
+/*for extra small devices, phones*/
+@media(max-width:479px){
+    *{ 
+        margin: 0px;
+    }
+   .topmenu a {
+        text-decoration: none;
+        margin: left;
+        margin-right: 0px;
+        margin-top: 20px;
+        font-size: 15px;
+        color: #35495e;
+        /* border-left: 1px black solid; */
+    }
+    nav{
+        margin-top: 10px;
+        margin-right: 35px;
+    }
+    
+    .logo {
+        width:10%;
+    }
+
+    .logotext{
+        font-size: 25px;
+    }
+    
+    .bannerbtn{
+        padding: 3px 7px 3px 7px;
+        border-radius: 10px;
+    }
+
+    .photodiv p{
+        right: 70%;
+        top:10px;
+        left:10px;
+        font-size: 10px;
+        }
+
+    .container{
+        padding: 20px 10px 20px 10px;
+        height:1350px;
+        }
+
+        .sub1{
+            width: 80%;
+            height: 180px;
+            left: 20px;
+            font-size: 20px;         
+        }
+        
+        .sub2{
+            width: 80%;
+            height: 200px;
+            left: 20px;
+            top: 460px;
+            font-size: 20px;         
+        }
+        
+        .sub3{
+            width: 80%;
+            height: 180px;
+            left: 20px;
+            top:675px;
+            font-size: 20px;
+        }
+        
+        .sub4{
+            width: 80%;
+            height: 190px;
+            left: 20px;
+            top:880px;
+            font-size: 20px;
+            border: 1px black solid;
+            border-radius: 7px;
+            box-shadow: 0px 0px 3px 3px;
+        }
+}
