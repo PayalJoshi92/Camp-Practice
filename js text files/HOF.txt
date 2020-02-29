@@ -1,0 +1,46 @@
+function greetings(){
+    console.log("Hello World");
+}
+greetings();
+
+
+
+function greetings(){
+greetings.lang='English';
+console.log(greetings.lang);
+}
+
+greetings();
+
+
+var multiply=function(x){
+    return x*x;
+}
+multiply(8);
+
+
+function multiplication(a){
+    return a*a;
+}
+
+var answer=multiplication
+answer(9);
+
+
+
+
+
+
+function formalgreet(){
+    console.log("Hello");
+}
+
+function casualgreet(){
+    console.log("Hey Dude");
+}
+
+function greeting(type,formal,casual){
+    if()
+}
+
+

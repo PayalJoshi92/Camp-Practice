@@ -1,0 +1,19 @@
+function showPrimes(n){
+  for(i=2;i<n;i++){
+    if(!isPrime(i)){
+      continue;
+    }
+    alert(i);
+  }
+}
+
+function isPrime(k){
+  for(o=2;o<k;o++){
+    if(k%o===0){
+      return false;
+    }
+  }
+  return true;
+}
+
+showPrimes(15);

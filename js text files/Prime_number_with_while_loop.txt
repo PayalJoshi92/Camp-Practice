@@ -1,0 +1,13 @@
+function isPrime(n){
+    var div=2;
+    while (n>div){
+        if(n%div==0){
+            return false;
+           
+        }
+        else
+        div++;
+    }
+    return true;
+}
+

@@ -1,0 +1,16 @@
+function GCD(a,b){
+divisor=2;
+greatestdivisor=1;
+
+if(a<2||b<2)
+return 1;
+
+while(a>=divisor && b>=divisor){
+if(a%divisor==0 && b%divisor==0){
+greatestdivisor=divisor;
+}
+divisor++;
+}
+
+return greatestdivisor;
+}

@@ -1,0 +1,13 @@
+function one(a){
+
+  return function two(b){
+      var sum = a+b;
+      return sum;
+          }
+      }
+
+var answer = one(10);
+var number = answer(20);
+console.log(number);
+
+

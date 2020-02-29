@@ -1,0 +1,36 @@
+//object literal
+//ex.1
+var myData={
+                name:"max ",
+                age: 90,
+                
+           };
+myData.name;
+myData.name="jhon";
+myData.name;
+//ex.2
+// how we can access function inside object
+var myData={
+                name:"max ",
+                age: 90,
+                myDetail:function()
+                        {
+                            console.log("I am inside function");
+                        }
+           };
+myData.myDetail();
+//ex.3 wirh array
+var myData={
+                name:"max ",
+                age: 90,
+                arr:[2,3,4,5]
+           };
+// task
+// How we can acess the ninth:"september"
+var test={  months: [
+                       { first:"jan", second:"feb", third:"march" },
+                       { fourth:"april", fifth:"may", sixth:"june" },
+                       { seventh:"july", eigtth:"August", ninth:"september" },
+                   ]
+        }
+test.months[2][2];

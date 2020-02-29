@@ -1,0 +1,65 @@
+/Callback examples
+   //eg. 1
+       function test()
+       {
+           console.log("This is test function");
+       }
+       function test_one( val,callback)
+       {
+           console.log("it is " +val);
+           callback();
+       }
+       test_one("working",test);
+   //eg.2
+       // how to call anonymous function
+       function test(val,callback)
+       {
+           console.log("this is test working"+val);
+       }
+       test('greate',function()
+           {
+               console.log("inside anonymous function");
+           }
+       )
+   //eg.3
+       function proce()
+       {
+       console.log("Processing......");
+       }
+       function init(){
+           console.log("Initialization...." );
+       }
+       function starts()
+       {
+           console.log("start.........");
+       }
+       // call multiple functions in another function as an arguments
+       function worrk(callback_One,callback_two,callback_three ,val)
+       {
+           callback_One();
+           callback_two();
+           callback_three();
+           console.log(val+"....");
+       }
+       worrk(proce,init,starts,'working');
+   //eg.4
+           function checkError(x)
+           {
+               console.log(x);
+           }
+           function checkString(x)
+           {
+               console.log(x);
+           }
+           function mainFun(name,callback_one,callback_two)
+           {
+               if(!(typeof name==='string'))
+               {
+                   callback_one('Please enter the character only');
+               }
+               else
+               {
+                   callback_two("click on link to confirm the registration");
+               }
+           }
+           mainFun('99999',checkError,checkString);

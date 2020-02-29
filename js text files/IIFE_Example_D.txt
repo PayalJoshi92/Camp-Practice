@@ -1,0 +1,11 @@
+///////iife eg.
+//eg. 1
+( function(){
+   console.log("This is working");
+}
+)();
+//eg. 2
+(function(x){
+   console.log("This is working="+90);
+}
+)(90);
